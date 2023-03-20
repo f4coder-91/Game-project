@@ -2,7 +2,7 @@ buidling:
 The initial sketch was for Tic Tac Toe board game using Html, Css and JavaScript.
 
 I had spent few hours trying to design the board.
-the board had to be 3 by 3 with no border-bottom and no left and right. I center the boardgame and its content where is easier for user interface.
+the board had to be 3 by 3 grid with no border-bottom and no left and right. I center the boardgame and its content where is easier for user interface.
 
 coding:
 
