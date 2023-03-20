@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #f7f7f7; */
+  font-family: sans-serif;
+  /* color: #fff; */
+  /* background-color: #fcc419; */
+}
+
+.game {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.gameboard {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  font-size: 90px;
+}
+
+.cell {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+
+/* practice */
+/* ///////////////////////// */
+.container {
+  margin: 100px auto;
+  width: max-content;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+/* .gameboard {
+  width: 300px;
+  height: 300px;
+  /* background-color: #f7f7f7; */
+/* font-size: 90px; */
+
+.cell:nth-child(3) {
+  border-right: none;
+}
+.cell:nth-child(6) {
+  border-right: none;
+}
+.cell:nth-child(9) {
+  border-right: none;
+}
+
+.cell:nth-child(7) {
+  border-bottom: none;
+}
+.cell:nth-child(8) {
+  border-bottom: none;
+}
+.cell:nth-child(9) {
+  border-bottom: none;
+}
+
+.btn-restart {
+  border: none;
+  outline: none;
+  display: inline-block;
+  background-color: #228be6;
+  padding: 18px 22px;
+  margin-top: 18px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 6px;
+  float: right;
+  cursor: pointer;
+}
+
+.winnerBlock {
+  background-color: #fcc419;
+  color: #f7f7f7;
+}
+
+.player-turn {
+  color: #69db7c;
+  font-weight: bold;
+  font-size: 32px;
+}
